@@ -1,7 +1,6 @@
 ﻿#include <iostream>
 #include <ctime>
 #include <algorithm>
-#include <ctime>
 #include <iomanip>
 #include <conio.h>
 using namespace std;
@@ -143,7 +142,7 @@ int main() {
 			cout << "\n\tYou Win!!!\n";
 			int time = (clock() - t) / CLOCKS_PER_SEC;//подсчёт времени
 			cout << "\n\t" << time << " Sec" << endl;
-			cout << "\t" << count << endl;
+			cout << "\t" << count <<" moves " << endl;
 			count = 0;
 			system("pause");
 			exit(0);
